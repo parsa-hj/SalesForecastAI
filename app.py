@@ -17,7 +17,7 @@ st.set_page_config(
 apply_custom_css()
 
 # Main content
-st.markdown('<p class="main-header">📊 Sales and Revenue Prediction Tool</p>', unsafe_allow_html=True)
+st.markdown('<p class="main-header">Sales and Revenue Prediction Tool</p>', unsafe_allow_html=True)
 st.markdown('<p class="info-text">Upload your historical sales data to get insights and predictions for future sales trends.</p>', unsafe_allow_html=True)
 
 # Sidebar settings
