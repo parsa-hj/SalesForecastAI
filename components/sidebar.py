@@ -3,7 +3,13 @@ import streamlit as st
 def create_sidebar():
     """Create sidebar with settings and return the selected values"""
     with st.sidebar:
-        st.image("https://www.example.com/logo.png", width=100)
+        st.markdown("""
+        <div style="text-align: center; margin-bottom: 20px;">
+            <svg width="50" height="50" viewBox="0 0 24 24" fill="#1E88E5">
+                <path d="M3.5,18.5L9.5,12.5L13.5,16.5L22,6.92L20.59,5.5L13.5,13.5L9.5,9.5L2,17L3.5,18.5Z"/>
+            </svg>
+        </div>
+        """, unsafe_allow_html=True)
         st.markdown("### Settings")
         
         # Forecast settings
