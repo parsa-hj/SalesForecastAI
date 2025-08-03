@@ -164,7 +164,7 @@ SalesForecastAI/
     └── custom.py        # CSS styles
 ```
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -211,3 +211,7 @@ pip install -r requirements.txt --force-reinstall
 2. **Handle Missing Data**: Fill gaps or remove incomplete records
 3. **Document Changes**: Note any business events or anomalies
 4. **Quality Checks**: Verify data accuracy before uploading
+
+## Pictures
+<img width="1902" height="990" alt="SalesForecastAI" src="https://github.com/user-attachments/assets/f9ef51d8-ca89-47f5-b31c-7d6e5b62c77d" />
+
